@@ -4,7 +4,9 @@
   "description": "Proyecto con Gulp, SASS y HTML",
   "main": "}",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,12 @@
   },
   "homepage": "https://github.com/RicardoSalazar27/FestivalMusical#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "gulp-plumber": "^1.2.1",
+    "save-dev": "^0.0.1-security"
   }
 }
