@@ -23,8 +23,13 @@
   },
   "homepage": "https://github.com/RicardoSalazar27/FestivalMusical#readme",
   "devDependencies": {
+    "avif": "^0.5.2",
     "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
+    "gulp-webp": "^5.0.0",
     "sass": "^1.70.0"
   },
   "dependencies": {
